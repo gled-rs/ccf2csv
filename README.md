@@ -6,7 +6,7 @@ Useful for SXMO users on pinephones.
 
 # install:
 
-git clone https://github.com/gled-rs/ccf2csv.git
+git clone https://github.com/gled-rs/cvf2csv.git
 pip install phonenumbers
 
 

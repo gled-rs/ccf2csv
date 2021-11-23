@@ -48,8 +48,8 @@ with open(input_file_name,'r',encoding='utf8') as r:
 
 d={}
 t={}
-with open(output_file_name,'w') as w:
-    writer = csv.writer(w,delimiter='\t')
+with open(output_file_name,'w',newline='') as w:
+    writer = csv.writer(w,delimiter='\t',lineterminator='\n')
     if sort == 'name':
         results.sort(key = lambda i: i[1])
     elif sort == 'number':

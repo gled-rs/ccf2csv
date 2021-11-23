@@ -1,3 +1,5 @@
+License is free to use and replicate and do whatever. credit appreciated but not necessary.
+
 simple python3 script to convert a vcard export ( nextcloud or any other really ) file into a contact.csv file with number\tname format.
 
 will also deduplicate name,tel contacts
